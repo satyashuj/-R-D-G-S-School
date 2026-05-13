@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -827,4 +828,835 @@ element.parentElement
 
 </script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Principal Message</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+.topper-box{
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+    padding:30px;
+
+    flex-wrap:wrap;
+}
+
+.topper-img{
+    width:320px;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.topper-content h2{
+    color:#0052D4;
+
+    margin-bottom:12px;
+
+    font-size:32px;
+}
+
+.topper-content p{
+    font-size:24px;
+
+    color:#222;
+
+    line-height:38px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.topper-box{
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.topper-img{
+    width:95%;
+
+    height:auto;
+}
+
+.topper-content h2{
+    font-size:24px;
+}
+
+.topper-content p{
+    font-size:18px;
+
+    line-height:30px;
+}
+
+}
+
+</style>
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+/* HEADER */
+
+.top-header{
+    background:white;
+
+    padding:18px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+
+    position:sticky;
+    top:0;
+
+    z-index:999;
+}
+
+.logo img{
+    width:190px;
+}
+
+/* NAVBAR */
+
+.navbar ul{
+    display:flex;
+
+    gap:35px;
+
+    list-style:none;
+}
+
+.navbar ul li{
+    position:relative;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+
+    color:#222;
+
+    font-size:18px;
+
+    display:flex;
+    align-items:center;
+
+    gap:8px;
+
+    transition:0.3s;
+}
+
+.navbar ul li a:hover{
+    color:#006633;
+}
+
+/* DROPDOWN */
+
+.dropdown-menu{
+    position:absolute;
+
+    top:40px;
+    left:0;
+
+    width:300px;
+
+    background:#0052D4;
+
+    border-radius:0 0 15px 15px;
+
+    overflow:hidden;
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:0.3s;
+
+    z-index:999;
+}
+
+.dropdown-menu li{
+    border-bottom:1px solid rgba(255,255,255,0.15);
+}
+
+.dropdown-menu li:last-child{
+    border-bottom:none;
+}
+
+.dropdown-menu li a{
+    color:white;
+
+    padding:18px 20px;
+
+    display:block;
+
+    font-size:16px;
+}
+
+.dropdown-menu li a:hover{
+    background:#003ea8;
+}
+
+.dropdown:hover .dropdown-menu{
+    opacity:1;
+    visibility:visible;
+}
+
+/* BUTTON */
+
+.enquiry-btn{
+    background:#005d22;
+
+    color:white;
+
+    padding:14px 28px;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    border-radius:3px;
+}
+
+/* PAGE SECTION */
+
+.principal-section{
+    padding:50px 80px;
+
+    display:grid;
+    grid-template-columns:1fr 650px;
+
+    gap:50px;
+
+    align-items:start;
+}
+
+/* LEFT TEXT */
+
+.principal-text p{
+    font-size:20px;
+
+    line-height:42px;
+
+    color:#222;
+
+    margin-bottom:30px;
+}
+
+/* RIGHT IMAGE */
+
+.principal-image img{
+    width:100%;
+}
+
+.principal-image h3{
+    margin-top:15px;
+
+    font-size:20px;
+
+    color:#111;
+}
+
+.principal-image p{
+    font-size:18px;
+
+    color:#555;
+
+    margin-top:5px;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#005d22;
+
+    color:white;
+
+    padding:35px 50px;
+
+    margin-top:40px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+    gap:30px;
+}
+
+.footer h3{
+    font-size:30px;
+
+    margin-bottom:18px;
+}
+
+.footer p{
+    font-size:17px;
+
+    line-height:32px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+    position:fixed;
+
+    right:25px;
+    bottom:25px;
+
+    width:75px;
+    height:75px;
+
+    background:#25d366;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+
+    font-size:38px;
+
+    text-decoration:none;
+
+    z-index:999;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.top-header{
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:20px;
+}
+
+.logo img{
+    width:150px;
+}
+
+.navbar ul{
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:18px;
+}
+
+.navbar ul li a{
+    font-size:15px;
+}
+
+.enquiry-btn{
+    font-size:15px;
+
+    padding:10px 18px;
+}
+
+.principal-section{
+    grid-template-columns:1fr;
+
+    padding:25px 20px;
+}
+
+.principal-text p{
+    font-size:16px;
+
+    line-height:30px;
+}
+
+.principal-image h3{
+    font-size:18px;
+}
+
+.principal-image p{
+    font-size:15px;
+}
+
+.footer{
+    grid-template-columns:1fr;
+
+    padding:30px 20px;
+}
+
+.footer h3{
+    font-size:24px;
+}
+
+.footer p{
+    font-size:15px;
+}
+
+.whatsapp{
+    width:60px;
+    height:60px;
+
+    font-size:30px;
+}
+
+}
+
+
+/* FOOTER LINKS */
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+
+    gap:14px;
+}
+
+.footer-links h3{
+    color:white;
+
+    font-size:28px;
+
+    margin-bottom:10px;
+}
+
+/* LINKS */
+
+.footer-links a{
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:0.4s;
+
+    width:fit-content;
+
+    background:linear-gradient(
+    45deg,
+    #ff4d4d,
+    #ffcc00,
+    #00cc66,
+    #00aaff,
+    #cc33ff);
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+}
+
+/* HOVER EFFECT */
+
+.footer-links a:hover{
+    transform:translateX(8px)
+    scale(1.05);
+
+    letter-spacing:1px;
+
+    filter:brightness(1.3);
+}
+
+/* MOBILE MENU */
+
+.menu-btn{
+    display:none;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    color:#082b57;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+/* HEADER */
+
+.top-header{
+    display:flex;
+
+    flex-direction:row;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 20px;
+}
+
+/* MENU BUTTON SHOW */
+
+.menu-btn{
+    display:block;
+}
+
+/* SIDEBAR MENU */
+
+.navbar{
+    position:fixed;
+
+    top:0;
+    left:-100%;
+
+    width:260px;
+
+    height:100vh;
+
+    background:white;
+
+    padding:30px 20px;
+
+    box-shadow:2px 0 15px rgba(0,0,0,0.15);
+
+    transition:0.4s;
+
+    z-index:9999;
+}
+
+/* SHOW MENU */
+
+.navbar.active{
+    left:0;
+}
+
+/* MENU ITEMS */
+
+.navbar ul{
+    flex-direction:column;
+
+    gap:18px;
+
+    margin-top:30px;
+}
+
+.navbar ul li a{
+    font-size:18px;
+
+    display:block;
+
+    padding:10px 0;
+}
+
+/* DROPDOWN */
+
+.dropdown-menu{
+    position:static;
+
+    width:100%;
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:none;
+
+    display:none;
+
+    background:#f4f7fc;
+
+    border-radius:10px;
+
+    margin-top:10px;
+}
+
+/* SHOW DROPDOWN */
+
+.dropdown.active .dropdown-menu{
+    display:block;
+}
+
+.dropdown-menu li a{
+    color:#082b57;
+
+    font-size:15px;
+
+    padding:12px 15px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="top-header">
+
+    <div class="logo">
+
+        <img src="https://dpskalyanpur.com/public/assets/images/logo.png">
+
+    </div>
+
+    <nav class="navbar">
+
+        <ul>
+
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+
+            <li class="dropdown">
+
+                <a href="#">
+                    About Us
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+
+                <ul class="dropdown-menu">
+
+                    <li>
+                        <a href="#">
+                            Principal Message
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Mission Vision
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            History
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <li>
+                <a href="#">
+                    Academics
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    Gallery
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    Achievements
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <a href="#" class="enquiry-btn">
+
+        Enquiry Form
+
+    </a>
+
+</header>
+
+<!-- PRINCIPAL SECTION -->
+
+<section class="principal-section">
+
+    <!-- LEFT -->
+
+    <div class="principal-text">
+
+        <p>
+            Dear Students, Parents, and the School Community,
+        </p>
+
+        <p>
+            Welcome to Bright Future School,
+            where education is not just about
+            imparting knowledge, but about inspiring,
+            guiding and preparing students for the future.
+            We believe active participation in academics,
+            sports and extracurricular activities helps
+            students become confident and successful individuals.
+        </p>
+
+        <p>
+            At our school, we emphasize critical thinking,
+            communication, collaboration and creativity
+            in every aspect of learning. These essential
+            21st-century skills empower students to become
+            innovators and responsible citizens.
+        </p>
+
+        <p>
+            Community service and leadership activities
+            are an important part of our educational vision.
+            Students actively participate in outreach programs,
+            helping them build empathy and social responsibility.
+        </p>
+
+        <p>
+            Our educational philosophy focuses on holistic
+            development where students excel academically
+            while also growing into thoughtful and compassionate
+            global citizens.
+        </p>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="principal-image">
+
+        <img src="https://dpskalyanpur.com/public/uploads/page/principal.jpg">
+
+        <h3>
+            Dr. Richa Prakash
+        </h3>
+
+        <p>
+            Principal
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div>
+
+        <h3>Bright Future School</h3>
+
+        <p>
+            Excellence in education,
+            innovation and discipline.
+        </p>
+
+    </div>
+
+    <!-- IMPORTANT LINKS -->
+
+    <div class="footer-links">
+
+        <h3>Important Links</h3>
+
+        <a href="admission.html">
+            Admissions
+        </a>
+
+        <a href="gallery.html">
+            Gallery
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </div>
+
+    <!-- QUICK LINKS -->
+
+    <div class="footer-links">
+
+        <h3>Quick Links</h3>
+
+        <a href="student.html">
+            Student Corner
+        </a>
+
+        <a href="notice.html">
+            Notice Board
+        </a>
+
+        <a href="faculty-list.html">
+            Faculty
+        </a>
+
+    </div>
+
+</footer>
+<!-- WHATSAPP -->
+
+<a href="#" class="whatsapp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<script>
+
+console.log("Principal Message Page Loaded");
+
+</script>
+<script>
+
+function toggleMenu(){
+
+document
+.getElementById("navbar")
+.classList.toggle("active");
+
+}
+
+/* DROPDOWN */
+
+function toggleDropdown(event,element){
+
+if(window.innerWidth <= 768){
+
+event.preventDefault();
+
+element.parentElement
+.classList.toggle("active");
+
+}
+
+}
+
+</script>
+</body>
+>>>>>>> bcf8516da9d1e9cad866d910abe30320c37e3414
 </html>

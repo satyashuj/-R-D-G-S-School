@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -440,4 +441,448 @@ console.log(
 </script>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Student Corner</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+/* PAGE BANNER */
+
+.page-banner{
+    height: 150px;
+  
+
+    background:
+    linear-gradient(135deg,#0052D4,#6FB1FC);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.page-banner h1{
+    color:white;
+
+    font-size:55px;
+}
+
+/* MAIN */
+
+.student-section{
+    padding:60px 40px;
+}
+
+/* GRID */
+
+.student-grid{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(230px,1fr));
+
+    gap:25px;
+}
+
+/* CARD */
+
+.student-card{
+    background:white;
+
+    padding:30px 20px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+
+.student-card:hover{
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.12);
+}
+
+.student-card i{
+    font-size:45px;
+
+    color:#0052D4;
+
+    margin-bottom:18px;
+}
+
+.student-card h3{
+    font-size:24px;
+
+    color:#082b57;
+
+    margin-bottom:12px;
+}
+
+.student-card p{
+    font-size:15px;
+
+    color:#666;
+
+    line-height:24px;
+
+    margin-bottom:20px;
+}
+
+/* BUTTON */
+
+.student-card a{
+    display:inline-block;
+
+    padding:10px 22px;
+
+    background:#0052D4;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    transition:0.3s;
+}
+
+.student-card a:hover{
+    background:#003ea8;
+}
+
+/* NOTICE */
+
+.notice-board{
+    margin-top:60px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+}
+
+.notice-board h2{
+    color:#0052D4;
+
+    margin-bottom:20px;
+
+    font-size:32px;
+}
+
+.notice-board marquee{
+    height:160px;
+
+    font-size:20px;
+
+    color:#333;
+}
+
+.notice-board p{
+    margin:18px 0;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.page-banner{
+    height:160px;
+}
+
+.page-banner h1{
+    font-size:36px;
+}
+
+.student-section{
+    padding:35px 18px;
+}
+
+.student-card{
+    padding:25px 15px;
+}
+
+.student-card i{
+    font-size:38px;
+}
+
+.student-card h3{
+    font-size:20px;
+}
+
+.student-card p{
+    font-size:14px;
+}
+
+.notice-board{
+    padding:20px;
+}
+
+.notice-board h2{
+    font-size:24px;
+}
+
+.notice-board marquee{
+    font-size:16px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- PAGE BANNER -->
+
+<section class="page-banner">
+
+    <h1>Student Corner</h1>
+
+</section>
+
+<!-- STUDENT FEATURES -->
+
+<section class="student-section">
+
+    <div class="student-grid">
+
+        <!-- HOMEWORK -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-book"></i>
+
+            <h3>Homework</h3>
+
+            <p>
+                Daily homework and assignments
+                for all classes.
+            </p>
+
+            <a href="#">
+                Open
+            </a>
+
+        </div>
+
+        <!-- RESULTS -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-square-poll-vertical"></i>
+
+            <h3>Results</h3>
+
+            <p>
+                Check exam results and
+                academic performance.
+            </p>
+
+            <a href="#">
+                View
+            </a>
+
+        </div>
+
+        <!-- DOWNLOADS -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-download"></i>
+
+            <h3>Downloads</h3>
+
+            <p>
+                Download syllabus,
+                forms and notices.
+            </p>
+
+            <a href="#">
+                Download
+            </a>
+
+        </div>
+
+        <!-- STUDY MATERIAL -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-file-lines"></i>
+
+            <h3>Study Material</h3>
+
+            <p>
+                Notes, PDFs and learning
+                materials for students.
+            </p>
+
+            <a href="#">
+                Open
+            </a>
+
+        </div>
+
+        <!-- ONLINE CLASSES -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-video"></i>
+
+            <h3>Online Classes</h3>
+
+            <p>
+                Join smart online classes
+                and video lectures.
+            </p>
+
+            <a href="#">
+                Join
+            </a>
+
+        </div>
+
+        <!-- TIME TABLE -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-calendar-days"></i>
+
+            <h3>Time Table</h3>
+
+            <p>
+                Check updated class
+                routine and schedule.
+            </p>
+
+            <a href="#">
+                View
+            </a>
+
+        </div>
+
+        <!-- ATTENDANCE -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-user-check"></i>
+
+            <h3>Attendance</h3>
+
+            <p>
+                Student attendance and
+                monthly records.
+            </p>
+
+            <a href="#">
+                Check
+            </a>
+
+        </div>
+
+        <!-- LIBRARY -->
+
+        <div class="student-card">
+
+            <i class="fa-solid fa-book-open-reader"></i>
+
+            <h3>Library</h3>
+
+            <p>
+                Explore books and digital
+                learning resources.
+            </p>
+
+            <a href="#">
+                Explore
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- NOTICE BOARD -->
+
+    <div class="notice-board">
+
+        <h2>
+            Latest Student Notices
+        </h2>
+
+        <marquee
+        direction="up"
+        scrollamount="3">
+
+            <p>
+                📢 Unit Test starts from 15 August
+            </p>
+
+            <p>
+                📢 Homework submission last date 10 August
+            </p>
+
+            <p>
+                📢 Drawing competition on Friday
+            </p>
+
+            <p>
+                📢 Science project submission next week
+            </p>
+
+            <p>
+                📢 Independence Day practice starts tomorrow
+            </p>
+
+        </marquee>
+
+    </div>
+
+</section>
+
+<script>
+
+console.log(
+"Student Corner Loaded Successfully"
+);
+
+</script>
+
+</body>
+>>>>>>> bcf8516da9d1e9cad866d910abe30320c37e3414
 </html>
